@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+@import "tailwindcss";
+
+*{
+    font-family: "Outfit", sans-serif;
+}
+
+@theme {
+    --color-primary: #2563EB;
+    --color-primary-dull: #1F58D8;
+    --color-light: #F1F5F9;
+    --color-borderColor: #c4c7d2;
+}
+
+/* Utility helpers for custom names used in components
+.bg-light { background-color: var(--color-light); }
+.bg-white { background-color: #ffffff; }
+.text-primary { color: var(--color-primary); }
+.border-borderColor { border-color: var(--color-borderColor); }
+.bg-primary { background-color: var(--color-primary); }
+.bg-primary-dull { background-color: var(--color-primary-dull); } */
