@@ -1,6 +1,6 @@
 import React from 'react'
 
-const title = ({title, subtitle, align}) => {
+const Title = ({ title, subtitle, align }) => {
   return (
     <div className={`flex flex-col justify-center items-center text-center ${align === "left" && " md:items-start md:text-left" }`}>
       <h1 className='text-4xl font-semibold md:text-[40px]'>{title}</h1>
@@ -9,4 +9,4 @@ const title = ({title, subtitle, align}) => {
   )
 }
 
-export default title
+export default Title

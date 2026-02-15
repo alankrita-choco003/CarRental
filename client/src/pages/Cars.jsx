@@ -74,17 +74,16 @@ const Cars = () => {
       className='flex flex-col items-center py-20 bg-light max-md:px-4'>
         <Title title='Available Cars' subtitle='Browse our selection of premium vehicles available for your next adventure'/>
         <motion.div
-          initial={{ opacity: 0, y: 20}}
-          whileInView={{ opacity:1, y:0 }}
-          transition={{ duration: 0.3, duration: 0.5 }}
-
-        className='flex items-center bg-white px-4 mt-6 max-w-140 w-full h-12 rounded-full shadow'>
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5 }}
+          className='flex items-center bg-white px-4 mt-6 max-w-140 w-full h-12 rounded-full shadow'>
           <img src={assets.search_icon} alt="" className='w-4.5 h-4.5 mr-2' />
 
           <input onChange={(e)=> setInput(e.target.value)} value={input} type='text' placeholder='search by make, model, or features ' className='w-full h-full outline-none text-gray-500'/>
 
           <img src={assets.filter_icon} alt="" className='w-4.5 h-4.5 ml-2' />
-        </motion.div>   
+        </motion.div>
       </motion.div>
 
       <motion.div
