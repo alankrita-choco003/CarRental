@@ -1,6 +1,6 @@
 import React from 'react'
 import { motion } from 'motion/react'
-import Title from './Title';
+import Title from './title';
 import { assets } from '../assets/assets';
 
 const Testimonial = () => {
