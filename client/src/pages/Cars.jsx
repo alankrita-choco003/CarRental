@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import Title from '../components/Title'
+import Title from '../components/title'
 import { assets } from '../assets/assets'
 import CarCard from '../components/CarCard'
 import { useAppContext } from '../context/AppContext'
